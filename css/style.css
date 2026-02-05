@@ -44,7 +44,7 @@ h2 {
     line-height: 2;
 }
 
-ul {
+.ul-cv {
     margin: 16px 0;
     list-style: disc;
     margin-left: 20px;
@@ -55,4 +55,29 @@ ul {
 }
 .footer strong {
     font-weight: bold;
+}
+
+/* =============================MENU========================== */
+.menu-container {
+    background-color: rgb(69, 91, 195, 1);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu a:hover,
+li.active a {
+    background: #fff;
+    color: black;
 }
