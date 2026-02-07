@@ -81,3 +81,53 @@ li.active a {
     background: #fff;
     color: black;
 }
+
+/* ============================FORM========================== */
+.form {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.form h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.group-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.group-form input {
+    padding: 8px 10px;
+    border-radius: 999px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    padding: 10px 15px;
+    background-color: #741ead;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn button:hover {
+    background-color: #9f41dd;
+}
